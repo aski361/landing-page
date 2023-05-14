@@ -9,15 +9,16 @@ body {
 .header {
     background-color: #1F2937;
     color: white;
-    padding: 0 128px;
+    padding: 0 264px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-    font-size: 200%;
+    font-size: 24px;
     font-weight: 900;
+    color: #f9faf8
 }
 
 .right-links ul {
@@ -35,3 +36,52 @@ body {
 }
 
 /* this website is awesome style */
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    padding: 64px 264px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.awesome-website {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.awesome-website span {
+    margin: 16px 0;
+}
+
+.awesome-website #main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.awesome-website #secondary-text {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+
+.image img {
+    height: 300px;
+    width: 750px
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    border: none;
+    font-size: 24px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 16px;
+    width: 128px;
+    font-weight: bold;
+}
