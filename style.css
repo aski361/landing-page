@@ -93,4 +93,25 @@ body {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
+    padding: 24px
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 128px;
+}
+
+.square {
+    width: 175px;
+    height: 175px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.text {
+    margin: 8px 0;
+    width: 175px;
+    text-align: center;
 }
